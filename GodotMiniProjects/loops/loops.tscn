@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6yue3p8shonq"]
+
+[ext_resource type="Script" path="res://loops/loops.gd" id="1_ll4oa"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ll4oa")
+spawn_count = 200
+metadata/_edit_vertical_guides_ = [610.0, -192.0, 192.0]
+metadata/_edit_horizontal_guides_ = [354.0]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
